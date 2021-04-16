@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es-419">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sergio Filoth</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <img src="./img/logo.svg" alt="Logo Sergio Filoth" class="logo">
+                <!-- <ul class="ulNav">
+                    <li class="ulNL"><a href="#">¿Quien Soy?</a></li>
+                    <li class="ulNL"><a href="#">Contactame</a></li>
+                </ul> -->
+            </nav>
+            <div class="presentation">
+            <div class="pText">
+                <p class="pP">
+                    Hola, soy Sergio Filoth y
+                </p>
+                <h1 class="pH">
+                    Te ayudo a llevar tu marca a la web
+                </h1>
+                <h2 class="pHL">
+                    Tengo conocimientos medios de desarrollo web, de manera que te podre brindar una excelente web.
+                </h2>
+                <a href="#cotization" class="btn">Pide tu cotización</a>
+            </div>
+            <div class="pImg">
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="./img/darks/header.svg" alt="Web Developer Dark">
+                    <img src="./img/header.svg" alt="Web Developer">
+                </picture>
+            </div>
+            </div>
+        </header>
+        <main class="main">
+            <h2 class="mainH">¿Cómo te puedo ayudar?</h2>
+            <div class="contentCard">
+                <div class="card">
+                    <picture>
+                        <source media="(prefers-color-scheme: dark)" srcset="./img/darks/services1.svg" alt="Web View Dark" class="cardImg">
+                        <img src="./img/services1.svg" alt="Web View" class="cardImg">
+                    </picture>
+                    <h3 class="cardH">
+                    E-commerce
+                    </h3>
+                    <p class="cardP">
+                        Tengo conocimientos medios de HTML, de manera que te pdre proporcinar una web bien escrita y con ayudas de indexación.
+                    </p>
+                    <a href="#" class="cardL">  Más Info
+                    </a>
+                </div>
+                <div class="card">
+                    <img src="./img/services2.svg" alt="Web View" class="cardImg">
+                    <h3 class="cardH">
+                    E-commerce
+                    </h3>
+                    <p class="cardP">
+                        Tengo conocimientos medios de HTML, de manera que te pdre proporcinar una web bien escrita y con ayudas de indexación.
+                    </p>
+                    <a href="#" class="cardL">  Más Info
+                    </a>
+                </div>
+                <div class="card">
+                    <picture>
+                        <source media="(prefers-color-scheme: dark)" srcset="./img/darks/services3.svg" alt="Web View Dark" class="cardImg">
+                        <img src="./img/services3.svg" alt="Web View" class="cardImg">
+                    </picture>
+                    <h3 class="cardH">
+                    E-commerce
+                    </h3>
+                    <p class="cardP">
+                        Tengo conocimientos medios de HTML, de manera que te pdre proporcinar una web bien escrita y con ayudas de indexación.
+                    </p>
+                    <a href="#" class="cardL">  Más Info
+                    </a>
+                </div>
+            </div>
+        </main>
+        <div class="contentForm" id="cotization">
+            <h3 class="cFH">
+                Solicita tu cotización
+            </h3>
+            <p class="cFP">Tengo conocimientos medios de HTML, de manera que te pdre proporcinar una web bien escrita y con ayudas de indexación.</p>
+            <form action="POST" class="form">
+                <div class="cForm">
+                    <div class="cName">
+                        <label for="name">Tu nombre completo</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="cEmail">
+                        <label for="email">Tu email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="cAbout">
+                        <label for="about">Cuéntame de tu proyecto</label>
+                        <textarea type="text" name="about" id="about" class="textarea" placeholder="Hablame de tu proyecto"></textarea> 
+                    </div>
+                </div>
+                <input type="submit" value="Pide tu cotización" class="btn">
+            </form>
+        </div>
+        <footer class="footer">
+            <p>
+                &copy; Sergio Filoth | 2021
+            </p>
+        </footer>
+    </body>
+</html>
