@@ -1,0 +1,48 @@
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.presentation{
+	display: flex;
+	width: 100%;
+}
+.pText{
+	width: 63%;
+}
+.pImg{
+	width: 37%;
+}
+.contentCard{
+	display: grid;
+	grid-template-columns: repeat(3, 25%);
+	justify-content: center;
+	grid-gap: 2rem;
+}
+.contentForm{
+	text-align: center;
+	padding: 6rem 0 7rem;
+}
+.form{
+	width: 75%;
+	margin: 0 auto;
+	text-align: left;
+}
+.cForm{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cName{
+	width: 50%;
+	padding-right: 1rem;
+}
+.cEmail{
+	width: 50%;
+}
+.cAbout{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+.textarea{
+	min-height: 168px;
+}

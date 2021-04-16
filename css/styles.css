@@ -1,6 +1,6 @@
-@import url("modules/_general.css");
-@import url("modules/_variables.css");
-@import url("modules/_colors.css");
-@import url("modules/_layouts.css");
-@import url("components/_buttons.css");
-@import url("views/_index.css");
+@import url("modules/general.css");
+@import url("modules/variables.css");
+@import url("modules/colors.css");
+@import url("modules/layouts.css");
+@import url("components/buttons.css");
+@import url("views/index.css");
